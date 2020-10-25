@@ -7,5 +7,8 @@ This AR game is built for iphone app, so please open on your mac then make sure 
 3. In xcode, goto 'Signing & Capabilities', then choose you iphone on 'Team'
 4. On left top, choose your iPhone device to build
 5. Push right arrow button on left top
-If you get '(your iPhone name) is not connected', goto 'Setting' -> 'General' -> 'Profiles & Device Management'  -> 'Apple Development'.
+
+_If you get '(your iPhone name) is not connected'_
+
+Goto 'Setting' -> 'General' -> 'Profiles & Device Management'  -> 'Apple Development'.
 Then verify the app we build
