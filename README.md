@@ -1,5 +1,5 @@
 # ShootingSphere
-This is AR app made of Unity. User shoots sphere and break it in our world!
+**This is AR app made of Unity. User shoots sphere and break it in our world!**
 ### How to start the AR game on your iphone
 This AR game is built for iphone app, so please open on your mac then make sure having latest xcode.
 1. Go to GunProjectBuild -> Unity-iPhone.xcodeproj, open it by xcode.
