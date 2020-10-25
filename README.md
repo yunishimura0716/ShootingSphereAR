@@ -12,3 +12,10 @@ _If you get '(your iPhone name) is not connected'_
 
 Goto 'Setting' -> 'General' -> 'Profiles & Device Management'  -> 'Apple Development'.
 Then verify the app we build
+
+## the screen on iPhone
+![IMG_2239](https://user-images.githubusercontent.com/38684796/97116355-b5cffe00-16b9-11eb-9823-fb00ba6585cf.PNG)
+## while you shooting
+![IMG_2243](https://user-images.githubusercontent.com/38684796/97116360-bf596600-16b9-11eb-891d-4cfcc77be6b6.PNG)
+## after you break the target sphere
+![IMG_2241](https://user-images.githubusercontent.com/38684796/97116374-d7c98080-16b9-11eb-9b9b-d576bc44e1f8.PNG)
