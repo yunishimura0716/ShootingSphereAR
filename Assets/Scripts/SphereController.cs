@@ -10,7 +10,7 @@ namespace  MyClass
         private Vector3 defaultPos;
 
         [SerializeField]
-        public float speed = 0.5f;
+        public float speed;
         [SerializeField]
         public int y_max = 2;
         [SerializeField]

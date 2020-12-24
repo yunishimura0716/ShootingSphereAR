@@ -7,8 +7,8 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    const int N = 7;
-    int max_balloon = 4;
+    const int N = 12;
+    int max_balloon = 6;
     public int appear_balloon = 0;
     System.Random random;
 
@@ -77,6 +77,13 @@ public class GameManager : MonoBehaviour
         appear_balloon--;
         spheres_dis.Add(sphere);
 
-        Score += 50;
+        int color = sphere.gameObject.GetComponent<Sphere>().color;
+        if (color == 0) {
+            Score += 50;
+        } else if (color == 1) {
+            Score += 100;
+        } else {
+            Score += 150;
+        }
     }
 }
