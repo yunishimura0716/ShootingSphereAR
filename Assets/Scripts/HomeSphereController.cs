@@ -5,10 +5,10 @@ using UnityEngine;
 public class HomeSphereController : MonoBehaviour
 {
     private Vector3 defaultPos;
+    private Rigidbody rigid;
     public float speed;
 
     // explosion particle
-    [SerializeField]
     public GameObject explosionParticle;
     [SerializeField]
     public GameObject sphere;
@@ -17,26 +17,27 @@ public class HomeSphereController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        defaultPos = sphere.transform.position;
+        rigid = sphere.gameObject.GetComponent<Rigidbody>();
         InitSphere();
     }
     public void InitSphere()
     {
         sphere.SetActive(true);
         explosionParticle.SetActive(false);
-        sphere.transform.position = defaultPos;
+        sphere.transform.position = new Vector3(695, 350, 80);
+        defaultPos = sphere.transform.position;
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        Vector3 delta = new Vector3(0, 1, 0) * Mathf.Repeat(Time.time * speed, 45);
-        sphere.transform.position = defaultPos + delta;
+        Vector3 delta = new Vector3(0, 1, 0) * Mathf.Repeat(Time.time * speed, 60);
+        rigid.MovePosition(defaultPos + delta);
         explosionParticle.transform.position = sphere.transform.position;
-        if (sphere.transform.position.y >= 385)
-        {
-            Explosion();
-        }
+        // if (sphere.transform.position.y >= 390)
+        // {
+        //     Explosion();
+        // }
     }
 
     public void Explosion()
@@ -44,6 +45,7 @@ public class HomeSphereController : MonoBehaviour
         explosionParticle.SetActive(true);//爆発をBombの場所にBombの向きで呼び出す
         StartCoroutine(destroySphereTimer());//Bombを0.1秒後に消す
         StartCoroutine(destroyExplosionTimer());//Explosionを3秒後に消す
+        // StartCoroutine(initTimer());
 
     }
 
@@ -55,7 +57,13 @@ public class HomeSphereController : MonoBehaviour
 
     IEnumerator destroyExplosionTimer()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(3);
+        explosionParticle.SetActive(false);
+
+    }
+    IEnumerator initTimer()
+    {
+        yield return new WaitForSeconds(3);
         InitSphere();
     }
 }
