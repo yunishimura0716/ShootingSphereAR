@@ -111,6 +111,10 @@ public class FirstPersonGunController : MonoBehaviour
         }
     }
 
+    // countdown
+    float countdown = 3f;
+    int count;
+
 
     // Start is called before the first frame update
     void Start()
@@ -121,13 +125,21 @@ public class FirstPersonGunController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (shootEnabled && (ammo > 0) && GetInput())
+        if (countdown >= 0)
         {
-            StartCoroutine(ShootTimer());
+            countdown -= Time.deltaTime;
+            count = (int)countdown;
         }
-        if (shootEnabled)
+        if (countdown <= 0)
         {
-            StartCoroutine(SupplyTimer());
+            if (shootEnabled && (ammo > 0) && GetInput())
+            {
+                StartCoroutine(ShootTimer());
+            }
+            if (shootEnabled)
+            {
+                StartCoroutine(SupplyTimer());
+            }
         }
     }
 

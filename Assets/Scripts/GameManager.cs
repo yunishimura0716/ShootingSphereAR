@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     Text scoreText;
 
-    int score = 0;
+    static int score = 0;
 
     public List<GameObject> spheres_app = new List<GameObject>();
     public List<GameObject> spheres_dis = new List<GameObject>();
@@ -35,6 +35,14 @@ public class GameManager : MonoBehaviour
             return score;
         }
     }
+    public static int getScore()
+    {
+        return score;
+    }
+
+    // countdown
+    float countdown = 3f;
+    int count;
 
     // Start is called before the first frame update
     void Start()
@@ -49,7 +57,15 @@ public class GameManager : MonoBehaviour
 
     void FixedUpdate()
     {
-        addSphere();
+        if (countdown >= 0)
+        {
+            countdown -= Time.deltaTime;
+            count = (int)countdown;
+        }
+        if (countdown <= 0)
+        {
+            addSphere();
+        }
     }
 
     public void addSphere()
