@@ -1,5 +1,5 @@
-GunProjectBuild/Frameworks/com.ptc.vuforia.engine/Vuforia/Plugins/iOS/Vuforia.framework/Vuforia filter=lfs diff=lfs merge=lfs -text
-GunProjectBuild/Libraries/libil2cpp.a filter=lfs diff=lfs merge=lfs -text
-GunProjectBuild/Libraries/libiPhone-lib.a filter=lfs diff=lfs merge=lfs -text
-Library/PackageCache/com.ptc.vuforia.engine@9.3.3/Vuforia/Plugins/iOS/Vuforia.framework/Vuforia filter=lfs diff=lfs merge=lfs -text
-Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
+# GunProjectBuild/Frameworks/com.ptc.vuforia.engine/Vuforia/Plugins/iOS/Vuforia.framework/Vuforia filter=lfs diff=lfs merge=lfs -text
+# GunProjectBuild/Libraries/libil2cpp.a filter=lfs diff=lfs merge=lfs -text
+# GunProjectBuild/Libraries/libiPhone-lib.a filter=lfs diff=lfs merge=lfs -text
+# Library/PackageCache/com.ptc.vuforia.engine@9.3.3/Vuforia/Plugins/iOS/Vuforia.framework/Vuforia filter=lfs diff=lfs merge=lfs -text
+# Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
