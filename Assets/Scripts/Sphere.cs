@@ -12,9 +12,6 @@ namespace MyClass
         // maximum scale
         public float maxScale = 0.7f;
 
-        // color (blue: 0, yellow: 1, red: 2)
-        public int color;
-
         [SerializeField]
         public SphereController sphereController;
 

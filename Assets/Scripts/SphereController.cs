@@ -26,6 +26,9 @@ namespace  MyClass
         [SerializeField]
         GameManager GM;
 
+        // color (blue: 0, yellow: 1, red: 2)
+        public int color;
+
         // Start is called before the first frame update
         void Start()
         {

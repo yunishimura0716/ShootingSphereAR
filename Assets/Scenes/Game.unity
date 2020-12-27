@@ -216,7 +216,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleFactor: 1.09
   maxScale: 0.7
-  color: 1
   sphereController: {fileID: 1003165046}
 --- !u!4 &46459782 stripped
 Transform:
@@ -279,7 +278,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 85642525}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.62, y: 0, z: 3.31}
+  m_LocalPosition: {x: 2.86, y: 0, z: 5.26}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 46459782}
@@ -382,6 +381,7 @@ MonoBehaviour:
   explosionParticle: {fileID: 1630185531}
   sphere: {fileID: 2127475254}
   GM: {fileID: 485246596}
+  color: 0
 --- !u!1 &139767663 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 499441430910448362, guid: 88e703a6377194690bd1683c873f5f58,
@@ -656,7 +656,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleFactor: 1.09
   maxScale: 0.7
-  color: 0
   sphereController: {fileID: 1035488427}
 --- !u!4 &340866143 stripped
 Transform:
@@ -836,7 +835,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleFactor: 1.09
   maxScale: 0.7
-  color: 0
   sphereController: {fileID: 1973431957}
 --- !u!4 &358226195 stripped
 Transform:
@@ -868,7 +866,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 372487280}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.78, y: 0, z: 2.2}
+  m_LocalPosition: {x: 2.39, y: 0, z: 2.97}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 808145958}
@@ -1440,6 +1438,7 @@ MonoBehaviour:
   explosionParticle: {fileID: 2147372813}
   sphere: {fileID: 1456835812}
   GM: {fileID: 485246596}
+  color: 2
 --- !u!1001 &592312617
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1655,7 +1654,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleFactor: 1.09
   maxScale: 0.7
-  color: 2
   sphereController: {fileID: 1973030324}
 --- !u!4 &641135069 stripped
 Transform:
@@ -1858,6 +1856,7 @@ MonoBehaviour:
   explosionParticle: {fileID: 327336840}
   sphere: {fileID: 770502700}
   GM: {fileID: 485246596}
+  color: 1
 --- !u!4 &679417659
 Transform:
   m_ObjectHideFlags: 0
@@ -2015,7 +2014,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleFactor: 1.09
   maxScale: 0.7
-  color: 1
   sphereController: {fileID: 679417658}
 --- !u!4 &770502706 stripped
 Transform:
@@ -2135,7 +2133,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleFactor: 1.09
   maxScale: 0.7
-  color: 0
   sphereController: {fileID: 1822609914}
 --- !u!1001 &826367227
 PrefabInstance:
@@ -2260,7 +2257,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 834144667}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.61, y: 0, z: 2.72}
+  m_LocalPosition: {x: 3.61, y: 0, z: 3.63}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 770502706}
@@ -2426,6 +2423,7 @@ MonoBehaviour:
   explosionParticle: {fileID: 139767663}
   sphere: {fileID: 1220968657}
   GM: {fileID: 485246596}
+  color: 1
 --- !u!1 &922649479 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5369173816082938468, guid: 368198e05f6e549a783cbf79dc7913e8,
@@ -2446,7 +2444,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleFactor: 1.09
   maxScale: 0.7
-  color: 0
   sphereController: {fileID: 2045555122}
 --- !u!4 &922649485 stripped
 Transform:
@@ -2594,6 +2591,7 @@ MonoBehaviour:
   explosionParticle: {fileID: 887858149}
   sphere: {fileID: 46459776}
   GM: {fileID: 485246596}
+  color: 1
 --- !u!1 &1005447264 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 499441430910448362, guid: 88e703a6377194690bd1683c873f5f58,
@@ -2655,6 +2653,7 @@ MonoBehaviour:
   explosionParticle: {fileID: 1274420666}
   sphere: {fileID: 1030001014}
   GM: {fileID: 485246596}
+  color: 2
 --- !u!1 &1030001014 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5369173816082938468, guid: 368198e05f6e549a783cbf79dc7913e8,
@@ -2675,7 +2674,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleFactor: 1.09
   maxScale: 0.7
-  color: 2
   sphereController: {fileID: 1020949125}
 --- !u!4 &1030001020 stripped
 Transform:
@@ -2732,6 +2730,7 @@ MonoBehaviour:
   explosionParticle: {fileID: 1485937776}
   sphere: {fileID: 340866137}
   GM: {fileID: 485246596}
+  color: 0
 --- !u!1 &1069775377
 GameObject:
   m_ObjectHideFlags: 0
@@ -3189,7 +3188,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleFactor: 1.09
   maxScale: 0.7
-  color: 1
   sphereController: {fileID: 911749350}
 --- !u!4 &1220968663 stripped
 Transform:
@@ -3407,7 +3405,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleFactor: 1.09
   maxScale: 0.7
-  color: 2
   sphereController: {fileID: 560521012}
 --- !u!1 &1485937776 stripped
 GameObject:
@@ -4001,6 +3998,7 @@ MonoBehaviour:
   explosionParticle: {fileID: 836815321}
   sphere: {fileID: 808145957}
   GM: {fileID: 485246596}
+  color: 0
 --- !u!1 &1836563049
 GameObject:
   m_ObjectHideFlags: 0
@@ -4321,7 +4319,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleFactor: 1.09
   maxScale: 0.7
-  color: 1
   sphereController: {fileID: 2075683122}
 --- !u!1001 &1854538611
 PrefabInstance:
@@ -4466,7 +4463,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1969314640}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.27, y: 0, z: 3.31}
+  m_LocalPosition: {x: 0.09, y: 0, z: 3.31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 358226195}
@@ -4510,6 +4507,7 @@ MonoBehaviour:
   explosionParticle: {fileID: 2136079253}
   sphere: {fileID: 641135063}
   GM: {fileID: 485246596}
+  color: 2
 --- !u!4 &1973030325
 Transform:
   m_ObjectHideFlags: 0
@@ -4559,6 +4557,7 @@ MonoBehaviour:
   explosionParticle: {fileID: 1616574063}
   sphere: {fileID: 358226189}
   GM: {fileID: 485246596}
+  color: 0
 --- !u!4 &1973431958
 Transform:
   m_ObjectHideFlags: 0
@@ -4992,6 +4991,7 @@ MonoBehaviour:
   explosionParticle: {fileID: 1005447264}
   sphere: {fileID: 922649479}
   GM: {fileID: 485246596}
+  color: 0
 --- !u!4 &2045555123
 Transform:
   m_ObjectHideFlags: 0
@@ -5088,6 +5088,7 @@ MonoBehaviour:
   explosionParticle: {fileID: 1641218860}
   sphere: {fileID: 1851324982}
   GM: {fileID: 485246596}
+  color: 1
 --- !u!1001 &2106592170
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5194,7 +5195,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleFactor: 1.09
   maxScale: 0.7
-  color: 0
   sphereController: {fileID: 123692734}
 --- !u!4 &2127475260 stripped
 Transform:

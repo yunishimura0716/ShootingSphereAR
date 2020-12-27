@@ -93,7 +93,7 @@ public class GameManager : MonoBehaviour
         appear_balloon--;
         spheres_dis.Add(sphere);
 
-        int color = sphere.gameObject.GetComponent<Sphere>().color;
+        int color = sphere.GetComponent<SphereController>().color;
         if (color == 0) {
             Score += 50;
         } else if (color == 1) {

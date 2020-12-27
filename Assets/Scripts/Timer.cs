@@ -8,7 +8,7 @@ public class Timer : MonoBehaviour
 {
     public Text timeTexts;
     public Text CountText;
-    float totalTime = 10;
+    float totalTime = 100;
     int retime;
     float countdown = 3f;
     int count;
