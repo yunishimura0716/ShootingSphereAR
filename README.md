@@ -13,6 +13,8 @@ _If you get '(your iPhone name) is not connected'_
 Goto 'Setting' -> 'General' -> 'Profiles & Device Management'  -> 'Apple Development'.
 Then verify the app we build
 
+trivial change
+
 ## Home Scene
 ![IMG_2336](https://user-images.githubusercontent.com/38684796/103181518-a3f40e00-4856-11eb-8246-dc00c67bcadd.PNG)
 ## the screen on iPhone
